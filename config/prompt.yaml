@@ -1,0 +1,5 @@
+_type: prompt
+input_variables: [inputs, users]
+template: "'You are an AI agent.
+  Return a JSON object with an `answer` key that answers the following question {inputs} based on the {users}.
+  '"
